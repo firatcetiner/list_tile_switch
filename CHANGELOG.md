@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - Initial release
 
-* TODO: Describe initial release.
+Initial release contains simple implementation of ListTileSwitch containing LisTile and custom switch widgets.
