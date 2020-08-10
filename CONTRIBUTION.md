@@ -29,8 +29,6 @@ Running the example project
 Contribute
 ----------
 
-We really appreciate contributions via GitHub pull requests. To contribute take the following steps:
-
  * Make sure you are up to date with the latest code on the master: 
    * `git fetch upstream`
    * `git checkout upstream/develop -b <name_of_your_branch>`
