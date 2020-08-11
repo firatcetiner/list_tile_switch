@@ -1,8 +1,10 @@
 name: list_tile_switch
-description: A new Flutter package for ListTileSwitch.
+description: A simple widget combines ListTile with a switch.
 version: 0.0.1
-author: f1r4tc@gmail.com
-homepage:
+repository: https://github.com/firatcetiner/list_tile_switch
+issue_tracker: https://github.com/firatcetiner/list_tile_switch/issues
+homepage: https://firatcetiner.github.io/list_tile_switch/
+documentation: https://github.com/firatcetiner/list_tile_switch/blob/master/README.md
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

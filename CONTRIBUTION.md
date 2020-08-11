@@ -1,4 +1,4 @@
-Flutter ListTileSwitch pagkage contribution guide
+Flutter ListTileSwitch package contribution guide
 =============================================
 
 What you will need
