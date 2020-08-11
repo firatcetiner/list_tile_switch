@@ -9,6 +9,7 @@ install:
   - ./flutter/bin/flutter doctor
 script:
   - ./flutter/bin/flutter test
+  - curl -s https://codecov.io/bash | bash
 cache:
   directories:
     - $HOME/.pub-cache
