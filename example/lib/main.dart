@@ -42,7 +42,8 @@ class _ListTileSwitchExampleState extends State<ListTileSwitchExample> {
         mainAxisSize: MainAxisSize.min,
         children: [
           SizedBox(height: 20),
-          Text('ListTileSwitch with only title', style: TextStyle(fontWeight: FontWeight.w500, fontSize: 22)),
+          Text('ListTileSwitch with only title',
+              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 22)),
           SizedBox(height: 20),
           ListTileSwitch(
             value: _switchValues[0],
@@ -81,7 +82,8 @@ class _ListTileSwitchExampleState extends State<ListTileSwitchExample> {
             title: Text('Material Switch'),
           ),
           SizedBox(height: 20),
-          Text('ListTileSwitch with subtitle', style: TextStyle(fontWeight: FontWeight.w500, fontSize: 22)),
+          Text('ListTileSwitch with subtitle',
+              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 22)),
           SizedBox(height: 20),
           ListTileSwitch(
             value: _switchValues[3],
