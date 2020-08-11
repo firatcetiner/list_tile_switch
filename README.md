@@ -24,6 +24,7 @@ Add dependency for package on your pubspec.yaml:
 
 ## Usage
 Use it as a regular ListTile widget with a bonus: the trailing widget is a switch. Covering all aspects of the ListTile and adding more with a custom switch.
+
 |Parameter| Definition  |
 |--|--|
 | `double switchScale` | Adjusting the scale of the switch widget.
