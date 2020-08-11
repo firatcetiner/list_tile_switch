@@ -2,15 +2,20 @@
 
 # ListTileSwitch
 
+[![Build Status](https://travis-ci.com/firatcetiner/list_tile_switch.svg?token=CnAy5FFDhPgLdDdw89rV&branch=master)](https://travis-ci.com/firatcetiner/list_tile_switch)
+[![Codemagic build status](https://api.codemagic.io/apps/5f31b8ee8ff73dbb0e939e5c/5f31b8ee8ff73dbb0e939e5b/status_badge.svg)](https://codemagic.io/apps/5f31b8ee8ff73dbb0e939e5c/5f31b8ee8ff73dbb0e939e5b/latest_build)
+[![Coverage Status](https://coveralls.io/repos/github/firatcetiner/list_tile_switch/badge.svg)](https://coveralls.io/github/firatcetiner/list_tile_switch)
 
-ListTileSwitch is a simple widget that combines ListTile with a switch. There are 3 types of widgets:
+
+ListTileSwitch is a simple widget that combines ListTile with a switch. Offering 3 types of switch widgets:
 
 1.  Switch: Material [Switch](https://api.flutter.dev/flutter/material/Switch-class.html) from Material library on Flutter SDK.
 2.  CupertinoSwitch: [CupertinoSwitch](https://api.flutter.dev/flutter/cupertino/CupertinoSwitch-class.html) from Cupertino library on Flutter SDK.
 3.  A custom switch.
 
-
 ![Demo](https://media.giphy.com/media/Za2kR21CTTTEilmPnY/giphy.gif)
+
+Tested on Android and Web but not iOS. Theoritacially it should work on iOS devices too, since this package contains nothing but pure Dart and Flutter components.
 ## Installation
 Add dependency for package on your pubspec.yaml:
 
@@ -85,14 +90,16 @@ Use it as a regular ListTile widget with a bonus: the trailing widget is a switc
 ## Todo
 The list of additional features that are considered to be implemented in the future.
 
+ - [ ] Creating more tests
  - [ ] Add interactivity to custom switch widget
  - [ ] Make custom switch more configurable
 	 - [ ] Configurable thumb shape
 	 - [ ] Configurable track shape
 	 - [ ] Scaling animation on value change
+ 
 
 ## Contribution
-Contributions are accepted via pull requests. For information about how to contribute to this package, please check the [contribution guide](https://github.com/firatcetiner/list_tile_switch/blob/master/CONTRIBUTION.md).
+Contributions are accepted via pull requests. For more information about how to contribute to this package, please check the [contribution guide](https://github.com/firatcetiner/list_tile_switch/blob/master/CONTRIBUTION.md).
 
 ## License
 This project is licensed under the MIT license, additional knowledge about the license can be found [here](https://github.com/firatcetiner/list_tile_switch/blob/master/LICENSE).
