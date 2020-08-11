@@ -3,7 +3,6 @@
     Contact: f1r4tc@gmail.com
 */
 
-
 library list_tile_switch;
 
 import 'package:flutter/cupertino.dart';
@@ -136,7 +135,7 @@ class ListTileSwitch extends StatelessWidget {
       selectedColor: switchActiveColor,
       style: ListTileStyle.list,
       child: ListTile(
-	      enabled: enabled,
+        enabled: enabled,
         onTap: () => onChanged(!value),
         onLongPress: onLongPress,
         leading: leading,

@@ -1,5 +1,5 @@
 name: list_tile_switch
-description: A simple widget combines ListTile with a switch.
+description: A simple yet elegant widget combines Material ListTile with custom and original Material and Cupertino switch implementations.
 version: 0.0.1
 repository: https://github.com/firatcetiner/list_tile_switch
 issue_tracker: https://github.com/firatcetiner/list_tile_switch/issues
