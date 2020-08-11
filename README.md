@@ -24,16 +24,17 @@ Add dependency for package on your pubspec.yaml:
 
 ## Usage
 Use it as a regular ListTile widget with a bonus: the trailing widget is a switch. Covering all aspects of the ListTile and adding more with a custom switch.
+
 |Parameter| Definition  |
 |--|--|
-| `double switchScale` | Adjusting the scale of the switch widget.
-|`Color switchActiveColor`|The color of the switch when the switch is active.
-| `bool toggleSelectedOnValueChange`|Deciding whether to color the `ListTile` when switch value is true, the selected color will be the `switchActiveColor`.
-|`Color switchInactiveColor`| Color when the switch is inactive.
-|`SwitchType switchType`| Indicating the type of switch to be displayed.
-|`bool value`| Current state of the switch value.
-| `onChanged(bool)`| Toggle callback for the widget.
-|`Widget leading`, `Widget title`, `Widget subtitle`, `Widget isThreeLine`, `EdgeInsetsGeometry contentPadding`, `VoidCallback onLongPress`, `VisualDensity visualDesnsity`, `bool dense`, `bool enabled`, `FocusNode focusNode`, `bool autoFocus`, `bool selected`, `Color focusColor`, `Color hoverColor`, `MouseCursor mouseCursor`| Referring to the original implementation of [ListTile](https://api.flutter.dev/flutter/material/ListTile-class.html) from Flutter SDK, all of the values are mapped directly to the ListTile widget internally.
+| `double switchScale` | Adjusting the scale of the switch widget.|
+|`Color switchActiveColor`|The color of the switch when the switch is active.|
+| `bool toggleSelectedOnValueChange`|Deciding whether to color the `ListTile` when switch value is true, the selected color will be the `switchActiveColor`.|
+|`Color switchInactiveColor`| Color when the switch is inactive.|
+|`SwitchType switchType`| Indicating the type of switch to be displayed.|
+|`bool value`| Current state of the switch value.|
+| `onChanged(bool)`| Toggle callback for the widget.|
+|`Widget leading`, `Widget title`, `Widget subtitle`, `Widget isThreeLine`, `EdgeInsetsGeometry contentPadding`, `VoidCallback onLongPress`, `VisualDensity visualDesnsity`, `bool dense`, `bool enabled`, `FocusNode focusNode`, `bool autoFocus`, `bool selected`, `Color focusColor`, `Color hoverColor`, `MouseCursor mouseCursor`| Referring to the original implementation of [ListTile](https://api.flutter.dev/flutter/material/ListTile-class.html) from Flutter SDK, all of the values are mapped directly to the ListTile widget internally.|
 
 ## Example
 
