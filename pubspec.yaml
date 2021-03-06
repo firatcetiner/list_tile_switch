@@ -1,13 +1,13 @@
 name: list_tile_switch
 description: A simple yet elegant widget combines Material ListTile with custom and original Material and Cupertino switch implementations.
-version: 0.0.2
+version: 1.0.0
 repository: https://github.com/firatcetiner/list_tile_switch
 issue_tracker: https://github.com/firatcetiner/list_tile_switch/issues
 homepage: https://firatcetiner.github.io/list_tile_switch/
 documentation: https://github.com/firatcetiner/list_tile_switch/blob/master/README.md
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:

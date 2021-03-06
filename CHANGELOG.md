@@ -13,3 +13,7 @@ Initial release contains simple implementation of ListTileSwitch containing LisT
 2. Fix formatting issue on README.md.
 
 
+## [1.0.0] - Null Safety
+
+This version opts-in sound null safety for Dart. Additionally, you can now leave the `title` property empty as long is it's not null.
+
